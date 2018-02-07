@@ -11,6 +11,15 @@ class App extends Component {
     ]
   }
 
+  switchNameHandler = (event) => {
+    this.setState({
+  person: [
+    {name: "Dania"},
+    {name: event }
+  ]
+})
+  }
+
   render() {
     return (
       <div className="App">
