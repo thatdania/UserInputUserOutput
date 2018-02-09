@@ -1,12 +1,13 @@
 import React from 'react'
+import './UserOutput.css'
 
 
 
 const userOutput = (props) => {
   return (
-    <div>
-  <p> Hello {props.name}</p>
-  <p> Bello {props.word}</p>
+    <div className="move">
+  <p className="hello"> Hello {props.name}</p>
+  <p className="bello"> Bello {props.word}</p>
     </div>
   )
 }

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+.move{
+  font-family: 'Acme';
+  font-size: 60px;
+  margin-top: 140px;
+  line-height: 10px;
+  margin-left: 160px;
+
+}
+
+.hello{
+  color: rgb(46, 76, 205);
+}
+
+
+.bello{
+  color: rgb(208, 60, 138);
+}
