@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import UserOutput from './UserOutput/UserOutput'
-import Useriutput from './UserInput/UserInput'
+import UserInput from './UserInput/UserInput'
 
 class App extends Component {
 
@@ -13,9 +13,9 @@ class App extends Component {
 
   switchNameHandler = (event) => {
     this.setState({
-  person: [
+  username: [
     {name: "Dania"},
-    {name: event }
+    {name: event.target.value }
   ]
 })
   }
@@ -25,7 +25,7 @@ class App extends Component {
       <div className="App">
       <UserOutput name={this.state.username[0].name} word="jello"/>
       <UserOutput name={this.state.username[1].name} word="yellow?"/>
-
+      <UserInput change={this.switchNameHandler} name={this.state.username[1].name}/>
       </div>
     )
   }

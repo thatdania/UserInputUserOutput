@@ -1,11 +1,10 @@
 import React from 'react'
 
 
-const userInput = () => {
+const userInput = (props) => {
   return (
   <div className="userInput">
-    <input type="text" value="value"/>
-
+    <input type="text" onChange={props.change} />
   </div>
   )
 }
