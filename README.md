@@ -1,4 +1,32 @@
-This was a Udemy assignment to test my knowledge on the fundamentals of React. The following instructions are below:
+![](public/ReadMe1.png)
+
+This was a Udemy assignment to test my knowledge on the fundamentals of React. You can launch this and whatever you type in the input field will change the second name.
+
+Test run project only.
+Check you have node and npm first!
+
+# How To Use:
+
+1. Clone the repo
+```
+git clone https://github.com/thatdania/UserInputUserOutput.git
+```
+2. Change the project folder directory
+```
+cd UserInputUserOutput
+```
+
+3. Npm install (just in case)
+```
+npm install
+```
+
+4. Npm start to get it going, to give it a try
+```
+Give it a try 
+```
+
+# The following tasks are below:
 
 - Create TWO new components: UserInput and UserOutput
 
